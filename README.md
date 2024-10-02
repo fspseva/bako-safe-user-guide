@@ -8,7 +8,8 @@ Designed for both individuals and groups, Bako Safe strengthens personal asset s
 
 As a browser-based platform, Bako Safe functions effortlessly on both desktop and mobile devices, offering flexibility and ease of use.
 
-> 💡 Bako Safe have received QuillAudit’s **Smart Contract Initial Audit Report** with 0 security issues. This is a major milestone, as it underscores our commitment to delivering a secure and reliable platform for both individual and institutional users of Fuel Network.
+> [!NOTE]
+> Bako Safe have received QuillAudit’s **Smart Contract Initial Audit Report** with 0 security issues. This is a major milestone, as it underscores our commitment to delivering a secure and reliable platform for both individual and institutional users of Fuel Network.
 https://github.com/Quillhash/QuillAudit_Reports/blob/master/Bako Safe Sway Smart Contracts Audit Report - QuillAudits.pdf
 
 In this document, we will guide you through the application and set your first vault on **Fuel Ignition Mainnet.**
