@@ -13,7 +13,7 @@ https://github.com/Quillhash/QuillAudit_Reports/blob/master/Bako Safe Sway Smart
 
 In this document, we will guide you through the application and set your first vault on **Fuel Ignition Mainnet.**
 
-> [!WARNING] **Disclaimer**
+> [!WARNING]
 > We recommend avoiding large-value deposits until you have become fully familiar with the platform’s functionality, features, and limitations.
 
 ## Login Options
