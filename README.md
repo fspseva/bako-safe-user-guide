@@ -8,25 +8,13 @@ Designed for both individuals and groups, Bako Safe strengthens personal asset s
 
 As a browser-based platform, Bako Safe functions effortlessly on both desktop and mobile devices, offering flexibility and ease of use.
 
-<aside>
-💡
-
-Bako Safe have received QuillAudit’s **Smart Contract Initial Audit Report** with 0 security issues. This is a major milestone, as it underscores our commitment to delivering a secure and reliable platform for both individual and institutional users of Fuel Network.
-
+> 💡 Bako Safe have received QuillAudit’s **Smart Contract Initial Audit Report** with 0 security issues. This is a major milestone, as it underscores our commitment to delivering a secure and reliable platform for both individual and institutional users of Fuel Network.
 https://github.com/Quillhash/QuillAudit_Reports/blob/master/Bako Safe Sway Smart Contracts Audit Report - QuillAudits.pdf
-
-</aside>
 
 In this document, we will guide you through the application and set your first vault on **Fuel Ignition Mainnet.**
 
-<aside>
-⚠️
-
-### **Disclaimer**
-
-**We recommend avoiding large-value deposits until you have become fully familiar with the platform’s functionality, features, and limitations.**
-
-</aside>
+> [!WARNING] **Disclaimer**
+> We recommend avoiding large-value deposits until you have become fully familiar with the platform’s functionality, features, and limitations.
 
 ## Login Options
 
@@ -237,7 +225,7 @@ Stay updated! You’ll receive notifications for pending transactions, vault act
 
 https://www.bako.global/
 
-- [**Bako Safe SDK](https://doc-safe.bako.global/sdk/quick-start):** the heart of Bako Safe offers a robust suite of functionalities for vault management, transaction processes, and modern secure authentication options, incorporating essential wallet operations with ease.
+- [**Bako Safe SDK**](https://doc-safe.bako.global/sdk/quick-start): the heart of Bako Safe offers a robust suite of functionalities for vault management, transaction processes, and modern secure authentication options, incorporating essential wallet operations with ease.
 - [**Bako Wallet Connector**](https://doc-safe.bako.global/connector/quick-start/installation): this package provides a seamless bridge for integrating our shared wallet functionalities into external applications, enhancing user experience and operational efficiency.
 
 ### **Bako ID - Extending Bako Ecosystem Functionality**
@@ -246,7 +234,7 @@ Our upcoming identity system bringing your digital legacy from social media prof
 
 https://www.bako.id/
 
-- [**Bako ID Documentation](https://docs.bako.id/)**
+- [**Bako ID Documentation**](https://docs.bako.id/)
 
 ### **Getting in Touch With The Bako Team**
 
