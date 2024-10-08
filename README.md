@@ -1,31 +1,5 @@
 # Bako Safe User Guide
 
-# Table of Contents
-
-- [Introduction](##introduction)
-- [Login Options](##login-options)
-  - [Login With Passkey](#login-with-passkey)
-  - [Login with Fuel Wallet](#login-with-fuel-wallet)
-  - [Login with Fuelet](#login-with-fuelet)
-- [User Interface](#user-interface)
-- [Personal Vault](#personal-vault)
-- [Create a New Vault](#create-a-new-vault)
-- [Working With Your Vault](#working-with-your-vault)
-  - [Getting Vault Address](#getting-vault-address)
-  - [Adding Assets via Bridge](#adding-assets-via-bridge)
-  - [Creating Transactions](#creating-transactions)
-  - [Batch Transactions](#batch-transactions)
-  - [Signing Transactions](#signing-transactions)
-  - [Pending Completion of Signed Transactions](#pending-completion-of-signed-transactions)
-  - [Deploying Contracts Using CLI Gateway](#deploying-contracts-using-cli-gateway)
-- [Address Book](#address-book)
-- [Notifications](#notifications)
-- [Upcoming to Our Roadmap](#upcoming-to-our-roadmap)
-- [Other Resources](#other-resources)
-  - [Bako Safe](#bako-safe)
-  - [Bako ID - Extending Bako Ecosystem Functionality](#bako-id---extending-bako-ecosystem-functionality)
-- [Getting in Touch With The Bako Team](#getting-in-touch-with-the-bako-team)
-
 ## Introduction
 
 Bako Safe is the native non-custodial multisignature wallet for the Fuel Network. It enhances security by requiring
