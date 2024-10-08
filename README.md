@@ -12,14 +12,14 @@ control in group settings, fostering collaboration in financial and contract gov
 As a browser-based platform, Bako Safe functions effortlessly on both desktop and mobile devices, offering flexibility
 and ease of use.
 
+In this document, we will guide you through the application and set your first vault on **Fuel Ignition Mainnet.**
+
 > [!NOTE]
 > Bako Safe have received QuillAudit’s **Smart Contract Initial Audit Report** with 0 security issues. This is a major
 > milestone, as it underscores our commitment to delivering a secure and reliable platform for both individual and
 > institutional users of Fuel Network.
 https://github.com/Quillhash/QuillAudit_Reports/blob/master/Bako Safe Sway Smart Contracts Audit Report -
 > QuillAudits.pdf
-
-In this document, we will guide you through the application and set your first vault on **Fuel Ignition Mainnet.**
 
 > [!WARNING]
 > We recommend avoiding large-value deposits until you have become fully familiar with the platform’s functionality,
@@ -33,6 +33,8 @@ The login screen offers three options: Passkey, Fuel Wallet, and Fuelet.
 
 ### Login With Passkey
 
+[![Watch the video](https://img.youtube.com/vi/hKBKRobGPfQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=hKBKRobGPfQ)
+
 Enter a **username** to check its availability. You will then be prompted to either create a new passkey account or log
 in with an existing one. Passkey is an excellent option for accessing Bako Safe across multiple devices with the same
 account.
@@ -45,19 +47,28 @@ account.
 > [!NOTE]
 > When using passkey, every time the name is updated in User Settings, it will also change the passkey login name.
 
-> [!NOTE]
-> **Warning: Passkey Security**
+> [!WARNING]
+> **Passkey Security**
 > If you lose the device where your passkey is stored, you risk losing full access to your account. To prevent this, we
 > strongly recommend syncing your passkey across multiple devices or with a cloud service to ensure continued access.
 
-### Login with Fuel Wallet/Fuelet
+### Login with Fuel Wallet
 
-Ensure your [Fuel Wallet](https://wallet.fuel.network/docs/install/) or Fuelet is connected to the **Ignition Mainnet.**
+[![Watch the video](https://img.youtube.com/vi/3tSVDWvfx1k/maxresdefault.jpg)](https://www.youtube.com/watch?v=3tSVDWvfx1k)
+
+Ensure your [Fuel Wallet](https://wallet.fuel.network/docs/install/) is connected to the **Ignition Mainnet.**
 
 ![Screenshot 2024-09-25 at 20.52.52.png](.github/assets/user-guide-step-2.png)
 
-If this option is not available, click on “Add new network” and set the Ignition URL to the URL that Fuel pass to your
-project.
+If this option is not available, click on “Add new network” and set the Ignition Mainnet URL.
+
+### Login with Fuelet
+
+[![Watch the video](https://img.youtube.com/vi/qayp_SRq1XQ/maxresdefault.jpg)](https://www.youtube.com/watch?v=qayp_SRq1XQ)
+
+Fuelet is available as a browser extension and as mobile application for iOS and Android. Ensure your [Fuelet App](https://fuelet.app/download/) is connected to the **Ignition Mainnet.**
+
+If this option is not available, click on Settings > App Settings > Network > + to add a new network. Set the Ignition Mainnet URL.
 
 ## User Interface
 
@@ -89,6 +100,8 @@ View the Vault address, balance, detailed transaction history, and other setting
 
 ## Personal Vault
 
+[![Watch the video](https://img.youtube.com/vi/Nc7NgMVK_YA/maxresdefault.jpg)](https://www.youtube.com/watch?v=Nc7NgMVK_YA)
+
 Unlike most multisig wallets, Bako Safe provides you with a Personal Vault from your very first login. This 1-1
 pattern (one signer and one minimum required signer) is not meant to replace a multisig but functions as a Smart Wallet,
 making it particularly useful for daily operations when using a passkey.
@@ -96,6 +109,8 @@ making it particularly useful for daily operations when using a passkey.
 To take full advantage of the security provided by a multisig, you can create new vaults.
 
 ## **Create a New Vault**
+
+[![Watch the video](https://img.youtube.com/vi/VZtqEc5sP-0/maxresdefault.jpg)](https://www.youtube.com/watch?v=VZtqEc5sP-0)
 
 In Bako Safe, creating vaults is completely free. There are no subsidies involved — it’s the magic of the Fuel Network.
 You can create as many vaults as you like.
@@ -106,23 +121,16 @@ You can create as many vaults as you like.
 
    ![Screenshot 2024-09-26 at 12.45.36.png](.github/assets/user-guide-step-9.png)
 
-    <aside>
-    💡
+> [!WARNING]
+> Bako Safe vaults (incl. the Personal Vault) cannot be used as signers of other vaults.
 
-   **IMPORTANT**: Bako Safe vaults (incl. the Personal Vault) cannot be used as signers of other vaults.
-
-    </aside>
 
 4. Set the signature threshold.
 
    ![Screenshot 2024-09-25 at 21.09.23.png](.github/assets/user-guide-step-3.png)
 
-    <aside>
-    💡
-
-   Choose wisely, as this cannot be changed further.
-
-    </aside>
+> [!WARNING]
+> Choose wisely, as this cannot be changed further, yet.
 
 5. Click on `+ Create Vault`
 
@@ -152,14 +160,8 @@ A simple transaction includes a name, recipient, asset and amount.
 
 ![Screenshot 2024-09-26 at 13.09.37.png](.github/assets/user-guide-step-11.png)
 
-<aside>
-💡
-
-Currently, Bako Safe supports processing **only one transaction at a time** per vault. For instance, If there is a
-pending transaction in the active vault, you will not be able to create a new one. We recommend using batch transactions
-to streamline transfers.
-
-</aside>
+> [!WARNING]
+> Currently, Bako Safe supports processing **only one transaction at a time** per vault. For instance, If there is a pending transaction in the active vault, you will not be able to create a new one. We recommend using batch transactions to streamline transfers.
 
 **Batch Transactions**
 
@@ -200,13 +202,9 @@ the gateway can be found here:
 
 [Simplifying Smart Contract Deployment with Bako Safe](https://mirror.xyz/0x28931bEad4067cc68C3A1917D06c2f216100EdA8/V9M77wp363QC4htGp1XaLJ9jWmnR9YOWgvndLE-TBc0)
 
-<aside>
-💡
-
-Only the vault owner (who created the vault) is able to create an API Token. If you are not seeing this option, double
+> [!NOTE]
+> Only the vault owner (who created the vault) is able to create an API Token. If you are not seeing this option, double
 check the vault owner address.
-
-</aside>
 
 ## **Address Book**
 
