@@ -27,12 +27,6 @@ In this document, we will guide you through the application and set your first v
 
 ## Login Options
 
-Use the homologation environment link:
-
-[https://safe.bako.global/](https://safe.bako.global/)
-
-b4k0maiinn3t
-
 The login screen offers three options: Passkey, Fuel Wallet, and Fuelet.
 
 ![Screenshot 2024-09-26 at 21.15.19.png](.github/assets/user-guide-step-20.png)
